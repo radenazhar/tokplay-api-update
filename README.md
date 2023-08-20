@@ -1,36 +1,25 @@
-# tokplay-api-update
-### Installation
+# Tokopedia Play Clone Backend Service
 
-1. Clone the frontend repository: `https://github.com/radenazhar/tokplay-frontend.git`
-2. Install dependencies: `npm install`
+## Get Started
 
-## Run project
+### Instalation
 
-To start the development server, run:
+Silahkan lakukan clone pada repository ini
 
 ```
-npm run dev
+git clone https://github.com/radenazhar/tokplay-api-update.git
 ```
-## Tech Stack
 
-Here are the tech stacks that TokPlay uses in its client-side:
-- React framework
-- Vite
-- Bootstrap
-- Axios
 
- ## Features
+```
+npm install
+```
 
-1. **Pages**:
 
-   - `/`: Homepage showing lists of video thumbnail pictures, and a search bar
-   - `/videos/${id}`: Display one of a video, list of products related to the video, and comments related to the video
+### Run Application
 
-2. **Comments**:
+Untuk menjalalankan aplikasi, silahkan jalankan perintah berikut pada terminal anda
 
-   - Users can see previous comments from other users
-   - User can also upload a new comment without having to register/login
-
-3. **Product list**:
-
-   - In video detail page, users can see recommended product based on video they are watching
+```
+npm run start
+```
